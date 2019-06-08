@@ -166,7 +166,7 @@ public final class PushNotificationService extends JobService {
         notificationsChannel.setSound(ringtoneUri, att);
         notificationsChannel.setVibrationPattern(VIBRATION_PATTERN);
         notificationsChannel.enableLights(true);
-        notificationsChannel.setLightColor(Color.RED);
+        notificationsChannel.setLightColor(Color.GREEN);
         notificationsChannel.setShowBadge(true);
         getNotificationManager().createNotificationChannel(notificationsChannel);
 
